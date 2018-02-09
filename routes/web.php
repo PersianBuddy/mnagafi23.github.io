@@ -12,8 +12,12 @@
 */
 
 Route::get('/welcome', function () {
-    return view('welcome');
+    return "Welcome home";
 });
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
 });
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
