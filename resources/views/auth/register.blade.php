@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    عضویت در سایت
+@endsection
+
 @section('content')
 <div class="container">
     <div class="row">

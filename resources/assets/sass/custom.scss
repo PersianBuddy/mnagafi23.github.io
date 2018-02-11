@@ -1,0 +1,41 @@
+//not found //
+#not-found {
+    margin-top: 30vh;
+}
+
+//////user-navbar/////
+#user-nav {
+    min-height: 100px;
+    .navbar-brand {
+        text-align: left;
+    }
+    .navbar-right {
+        .btn-hollow {
+            color: chocolate;
+        }
+        .btn:hover {
+            color: red;
+        }
+    }
+}
+
+/////main navbar /////
+.navbar {
+    .dropdown {
+        .btn-hollow {
+            color: blue;
+        }
+        .btn-hollow:hover {
+            color: red;
+        }
+         :focus {
+            border: none;
+            background: inherit;
+            color: red;
+        }
+        .dropdown-menu {
+            text-align: right;
+            opacity: 0.7;
+        }
+    }
+}
