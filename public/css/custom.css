@@ -1,39 +1,73 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 #not-found {
   margin-top: 30vh;
 }
 
-#user-nav {
-  min-height: 100px;
+#custom-nav {
+  min-height: 200px;
+  background-image: url("/images/md/navbar-bg.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-#user-nav .navbar-brand {
-  text-align: left;
+#user-nav .navbar-right {
+  margin-top: 10px;
 }
 
-#user-nav .navbar-right .btn-hollow {
-  color: chocolate;
+#user-nav .navbar-right .btn {
+  opacity: 0.9;
+  font-size: 2rem;
 }
 
-#user-nav .navbar-right .btn:hover {
-  color: red;
+.navbar {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
-.navbar .dropdown .btn-hollow {
-  color: blue;
+.navbar:hover {
+  background-color: #793c11;
 }
 
-.navbar .dropdown .btn-hollow:hover {
-  color: red;
-}
-
-.navbar .dropdown :focus {
-  border: none;
-  background: inherit;
-  color: red;
+.navbar .dropdown {
+  position: static;
 }
 
 .navbar .dropdown .dropdown-menu {
+  direction: rtl;
+  width: 100%;
   text-align: right;
-  opacity: 0.7;
+  /*height of main menu*/
 }
+
+.navbar .dropdown .dropdown-menu h4 {
+  color: blue;
+  font-weight: bold;
+}
+
+.navbar .dropdown .dropdown-menu .soon {
+  color: orangered;
+}
+
+.navbar .dropdown .dropdown-menu ul {
+  padding: 0;
+  list-style: none;
+}
+
+.navbar .dropdown .dropdown-menu ul li {
+  padding: 0;
+}
+
+.navbar .dropdown .dropdown-menu ul a {
+  color: #333;
+}
+
+.navbar .dropdown .dropdown-menu ul a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+/* CSS used here will be applied after bootstrap.css */
 

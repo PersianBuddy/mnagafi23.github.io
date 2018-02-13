@@ -12,12 +12,20 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap-rtl.css')}}" rel="stylesheet">
     <link href="{{asset('css/custom.css')}}" rel="stylesheet">
 </head>
 <body>
     
     <div id="app">
-        @include('includes.user-navbar')
+        <div id="custom-nav">
+            <div class="row">
+                <div class="col-xs-4">
+                    @include('includes.user-navbar')
+                </div>
+            </div>
+            
+        </div>
         @include('includes.navbar')
         
         
@@ -25,6 +33,7 @@
     </div>
 
     <!-- Scripts -->
+    <script src="{{ asset('js/jquery.js')}}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

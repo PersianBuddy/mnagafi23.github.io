@@ -971,7 +971,6 @@ module.exports = __webpack_require__(43);
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -991,8 +990,26 @@ window.Vue = __webpack_require__(35);
 Vue.component('example-component', __webpack_require__(38));
 
 var app = new Vue({
-  el: '#app'
+    el: '#app'
 });
+
+//hoverable dropdown button
+$('ul.nav li.dropdown').hover(function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    $(this).addClass("open");
+}, function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    $(this).removeClass("open");
+});
+
+//custom
+// $("ul.nav li.dropdown").hover(function() {
+//     $(this).find('dropdown-menu').delay(50).fadeIn(500);
+// },
+// function() {
+//     $(this).find('.dropdown-menu'), delay(50).fadeOut(500);
+// }
+// );
 
 /***/ }),
 /* 11 */

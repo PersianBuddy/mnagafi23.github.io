@@ -1,41 +1,73 @@
+//general
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 //not found //
 #not-found {
     margin-top: 30vh;
 }
 
+/////custom-nav/////
+#custom-nav {
+    min-height: 200px;
+    background-image: url('/images/md/navbar-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
 //////user-navbar/////
 #user-nav {
-    min-height: 100px;
-    .navbar-brand {
-        text-align: left;
-    }
     .navbar-right {
-        .btn-hollow {
-            color: chocolate;
-        }
-        .btn:hover {
-            color: red;
+        margin-top: 10px;
+        .btn {
+            opacity: 0.9;
+            font-size: 2rem;
         }
     }
 }
 
 /////main navbar /////
 .navbar {
+    transition: background-color 1s;
+    &:hover {
+        background-color: darken(chocolate, 20%);
+    }
     .dropdown {
-        .btn-hollow {
-            color: blue;
-        }
-        .btn-hollow:hover {
-            color: red;
-        }
-         :focus {
-            border: none;
-            background: inherit;
-            color: red;
-        }
+        position: static;
         .dropdown-menu {
+            direction: rtl;
+            width: 100%;
             text-align: right;
-            opacity: 0.7;
+            h4 {
+                color: blue;
+                font-weight: bold;
+            }
+            .soon {
+                color: orangered;
+            }
+            ul {
+                padding: 0;
+                li {
+                    padding: 0;
+                }
+                list-style: none;
+                a {
+                    color: #333;
+                    ;
+                    &:hover {
+                        text-decoration: none;
+                        color: red;
+                    }
+                }
+            }
+            // min-width: 100vw;
+            // justify-self: right;
+            // text-align: right;
+            /*height of main menu*/
         }
     }
 }
+
+
+/* CSS used here will be applied after bootstrap.css */
