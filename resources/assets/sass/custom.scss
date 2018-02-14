@@ -114,13 +114,24 @@ body {
     h2 {
         margin: 0.9em auto;
     }
+    h4 {
+        padding-top: 1em;
+    }
     img {
         margin: 20px auto;
         width: 70%;
         height: auto;
     }
+    .glyphicon {
+        color: orange;
+        font-size: 1.5em;
+        transform: translateY(30%);
+        padding-left: 1em;
+    }
     //motherboard components
-    ul {
-        list-style-type: decimal;
+    #motherboard-components {
+        ul {
+            list-style-type: decimal;
+        }
     }
 }

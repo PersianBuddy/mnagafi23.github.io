@@ -124,13 +124,25 @@ body p {
   margin: 0.9em auto;
 }
 
+.page-content h4 {
+  padding-top: 1em;
+}
+
 .page-content img {
   margin: 20px auto;
   width: 70%;
   height: auto;
 }
 
-.page-content ul {
+.page-content .glyphicon {
+  color: orange;
+  font-size: 1.5em;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+  padding-left: 1em;
+}
+
+.page-content #motherboard-components ul {
   list-style-type: decimal;
 }
 

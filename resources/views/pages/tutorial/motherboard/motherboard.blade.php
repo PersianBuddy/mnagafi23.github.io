@@ -19,7 +19,7 @@
                                     <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-overview"> مادربورد چیسیت؟</li>
                                     <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-components"> اجزای مادربورد</li>
                                     <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-overview"> دسته بندی مادربورد</li>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-overview"> form factor</a></li>
+                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#form-factor"> فرم فاکتور (form factor)</a></li>
                                 </ul>
                             
                         </ul>
@@ -47,6 +47,9 @@
                             در زیر لینک مربوط به اجزای یک مادربورد مدرن نمایش داده شده است.
                             
                         </p>
+                        <p>
+                            برای نمایش تصویر با‌کیفیت روی تصویر بالا کلیک کنید...
+                        </p>
                         <ul>
                             <div class="row">
                                 <div class="col-md-6">
@@ -69,13 +72,12 @@
                                 <div class="col-md-6">
                                      <li><a href="">IDE connector</a></li>
                                     <li><a href="">کانکتور ۲۴ پین پاور</a></li>
-                                    
+                                    <li><a href="">South Bridge</a></li>
                                     <li><a href="">کانکتور SATA</a></li>
                                     <li><a href="">باتری ذخیره مادربورد (CMOS)</a></li>
                                     <li><a href="">RAID</a></li>
-                                    <li><a href="">Front Panel connectors (system panel connectors)</a></li>
+                                    <li><a href="">Front Panel connectors/system panel connectors</a></li>
                                     <li><a href="">FWH</a></li>
-                                    <li><a href="">South Bridge</a></li>
                                     <li><a href="">کانکتور پورت سریال (Serial Port connector)</a></li>
                                     <li><a href="">هدر USB</a></li>
                                     <li><a href="">جامپر (Jumpers)</a></li>
@@ -85,12 +87,27 @@
                                     <li><a href="">CD-IN</a></li>
                                 </div>
                             </div>
-                            
-                            
-                            
                         </ul>
                   </div>
-                
+                <div id="form-factor">
+                    <h2>
+                        فرم فاکتور (Form Factor)
+                    </h2>
+                    <p>
+                            به اندازه، شکل و نحوه‌س چینش (layout) اجزای یک قطعه‌‌ی سخت‌افزاری فرم فاکتور (form factor ) گفته می‌شود که در برخی قطعات مانند ذخیره سازها و بورد‌ها استاندارد شده‌اند تا به طور صحیح در کنار قطعات دیگر قرار گرفته و نصب شوند.
+                    </p>
+                    <p>
+                        <span class="glyphicon glyphicon-hand-left"></span> توجه داشته باشید که کیس و پاور (power supply) نیز باید از فرم فاکتور مادربورد پشتیبانی کنند.
+                    </p>
+                    <h4>انواع متداول فرم فاکتور برای مادربورد‌ها عبارت‌ اند از: </h4>
+                    <ul>
+                        <li><a href=""><span class="glyphicon glyphicon-link"></span> ATX<a><li>
+                        <li><a href=""><span class="glyphicon glyphicon-link"></span> Flex ATX<a><li>
+                        <li><a href=""><span class="glyphicon glyphicon-link"></span> Mini-ITX<a><li>
+                        <li><a href=""><span class="glyphicon glyphicon-link"></span> BTX<a><li>
+                        <li><a href=""><span class="glyphicon glyphicon-link"></span> micro ATX<a><li>
+                    </ul>
+                </div>
                 
             </div>
         </div>
