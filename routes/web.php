@@ -22,6 +22,8 @@ Route::get('/', 'PagesController@index');
 //motherboard
 //first page
 Route::get('/tutorial/motherboard/basics','PagesController@motherboard');
+//expansion slots
+Route::get('/tutorial/motherboard/expansion_slots','PagesController@expansion_slots');
 
 
 Auth::routes();

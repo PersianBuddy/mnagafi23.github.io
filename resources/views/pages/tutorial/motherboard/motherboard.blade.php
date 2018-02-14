@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 @section('title')
-    آشنایی با مادربورد
+   آشنایی با اجزای مادربورد و انواع آن
+@endsection
+@section('description')
+فرم فاکتور (form factor) چیست و انواع آن کدام اند؟ تفاوت فرم فاکتورها در چیست؟ | آشنایی با اجزای مادربورد | مادربورد مناسب کیس من کدام است؟
 @endsection
 
 @section('content')
@@ -18,7 +21,6 @@
                                 <ul>
                                     <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-overview"> مادربورد چیسیت؟</li>
                                     <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-components"> اجزای مادربورد</li>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-overview"> دسته بندی مادربورد</li>
                                     <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#form-factor"> فرم فاکتور (form factor)</a></li>
                                 </ul>
                             
@@ -53,7 +55,7 @@
                         <ul>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <li><a href=""> اسلات توسعه (Expansion slots)</a></li>
+                                    <li><a href="{{url('/tutorial/motherboard/expansion_slots')}}"> اسلات توسعه</a> ( <a href="">PCI</a> , <a href="">PCI Express</a> , <a href="">AGP</a> )</li>
                                     <li><a href="">کانکتورهای فن (3-pin fan conectorors)</a></li>
                                     <li><a href="">کانکتورهای پشت مادربورد</a></li>
                                     <li><a href="">Heat Sink</a></li>

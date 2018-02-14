@@ -94,11 +94,11 @@ body p {
 .page-index ul {
   list-style: none;
   margin: 0;
-  padding-right: 5px;
+  padding-right: 2px;
 }
 
 .page-index ul li {
-  padding-top: 1rem;
+  padding-top: 0;
   margin-right: 0;
 }
 
@@ -144,5 +144,23 @@ body p {
 
 .page-content #motherboard-components ul {
   list-style-type: decimal;
+}
+
+.page-content .table {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+#main-footer {
+  min-height: 300px;
+  background: #222;
+  color: #eee;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .page-index {
+    display: none;
+  }
 }
 
