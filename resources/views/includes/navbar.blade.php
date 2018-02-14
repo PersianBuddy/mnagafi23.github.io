@@ -31,7 +31,7 @@
                                         <div class="col-sm-3 col-sm-3">
                                             <h4>آشنایی با قطعات داخلی</h4>
                                             <ul>
-                                                <li><a href="#" class="btn btn-hollow">مادربورد</a>
+                                                <li><a href="{{url('/tutorial/motherboard/basics')}}" class="btn btn-hollow">مادربورد</a>
                         
                                                 </li>
                                                 <li><a href="#" class="btn btn-hollow">کارت گرافیک</a>

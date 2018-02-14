@@ -1002,14 +1002,10 @@ $('ul.nav li.dropdown').hover(function () {
     $(this).removeClass("open");
 });
 
-//custom
-// $("ul.nav li.dropdown").hover(function() {
-//     $(this).find('dropdown-menu').delay(50).fadeIn(500);
-// },
-// function() {
-//     $(this).find('.dropdown-menu'), delay(50).fadeOut(500);
-// }
-// );
+//change english numbers into persian 
+// $(document).ready(function() {
+//     $('#motherboard-componets').persiaNumber('ar');
+// });
 
 /***/ }),
 /* 11 */

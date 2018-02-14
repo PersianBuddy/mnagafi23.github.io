@@ -34,6 +34,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.js')}}"></script>
+    {{--change english numbers into persian--}}
+    {{--  <script src="{{ asset('js/persianumber.js') }}"></script>     --}}
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

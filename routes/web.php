@@ -14,9 +14,15 @@
 Route::get('/welcome', function () {
     return "Welcome home";
 });
-Route::get('/', function () {
-    return view('pages.index');
-});
+
+//pages controller
+//home page
+Route::get('/', 'PagesController@index');
+//tutorial
+//motherboard
+//first page
+Route::get('/tutorial/motherboard/basics','PagesController@motherboard');
+
 
 Auth::routes();
 

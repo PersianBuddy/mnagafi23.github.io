@@ -1,5 +1,23 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #e4e4e4;
+}
+
+body .glyphicon {
+  color: lightblue;
+}
+
+body ul {
+  list-style: none;
+  padding-right: 1em;
+}
+
+body ul li {
+  padding-top: 1em;
+}
+
+body p {
+  text-indent: 1em;
 }
 
 #not-found {
@@ -69,5 +87,50 @@ body {
   color: red;
 }
 
-/* CSS used here will be applied after bootstrap.css */
+.page-index {
+  margin-top: 50px;
+}
+
+.page-index ul {
+  list-style: none;
+  margin: 0;
+  padding-right: 5px;
+}
+
+.page-index ul li {
+  padding-top: 1rem;
+  margin-right: 0;
+}
+
+.page-index ul li a {
+  text-decoration: none;
+}
+
+.page-index ul li a:hover {
+  color: red;
+}
+
+.page-index ul li .glyphicon {
+  color: #000;
+}
+
+.page-content {
+  background-color: #f4f4f4;
+  margin-top: 50px;
+  padding-right: 2em;
+}
+
+.page-content h2 {
+  margin: 0.9em auto;
+}
+
+.page-content img {
+  margin: 20px auto;
+  width: 70%;
+  height: auto;
+}
+
+.page-content ul {
+  list-style-type: decimal;
+}
 
