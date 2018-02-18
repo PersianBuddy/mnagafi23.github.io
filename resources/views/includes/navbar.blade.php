@@ -25,10 +25,10 @@
                         
                         <ul class="dropdown-menu">
                             <li>
-                                <div class="row">
+                                <div class="row col-divider">
                                     <div class="container">
                                         
-                                        <div class="col-sm-3 col-sm-3">
+                                        <div class="col-sm-3 col-md-3">
                                             <h4>آشنایی با قطعات داخلی</h4>
                                             <ul>
                                                 <li><a href="{{url('/tutorial/motherboard/basics')}}" class="btn btn-hollow">مادربورد</a>

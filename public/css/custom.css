@@ -21,6 +21,17 @@ body p {
   text-indent: 1em;
 }
 
+.col-divider [class*='col-']:not(:first-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+}
+
 #not-found {
   margin-top: 30vh;
 }
@@ -101,7 +112,7 @@ body p {
 }
 
 #tutorial-side-nav ul {
-  background: orange;
+  background: #333;
   z-index: 500;
   padding-right: 0;
   width: 100%;
@@ -109,12 +120,12 @@ body p {
 
 #tutorial-side-nav ul li {
   position: relative;
-  border-bottom: #cc8400 solid 1px;
+  border-bottom: #1a1919 solid 1px;
   padding: 0;
 }
 
 #tutorial-side-nav ul li a {
-  color: #000 !important;
+  color: #fff !important;
   display: block;
   padding-top: 12px;
   padding-right: 1em;
@@ -148,6 +159,10 @@ body p {
 
 #tutorial-side-nav ul ul li {
   border-bottom-color: #0290ff;
+}
+
+#tutorial-side-nav ul ul li a {
+  color: #000 !important;
 }
 
 #tutorial-side-nav ul ul li:hover {

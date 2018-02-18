@@ -10,24 +10,8 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-sm-3 page-index">
-                <div class="panel panel-success">
-                    <div class="panel-heading">
-                    راهنمای شما
-                    </div>
-                    <div class="panel-body">
-                    
-                        <ul>
-                            <li><span class="glyphicon glyphicon-triangle-bottom"></span><a class="disable" href="{{url('/tutorial/motherboard/basics')}}"> مادربورد</a><li>
-                                <ul>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-overview"> مادربورد چیسیت؟</li>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-components"> اجزای مادربورد</li>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#form-factor"> فرم فاکتور (form factor)</a></li>
-                                </ul>
-                            
-                        </ul>
-                    </div>  
-                </div>
+            <div class="col-sm-3">
+                @include('includes.tutorial_side_nav')
             </div>
             
             <div class="col-sm-9 page-content">
