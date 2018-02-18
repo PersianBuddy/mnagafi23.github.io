@@ -19,13 +19,21 @@ Route::get('/welcome', function () {
 //home page
 Route::get('/', 'PagesController@index');
 //tutorial
-//motherboard
-//first page
-Route::get('/tutorial/motherboard/basics','PagesController@motherboard');
-//expansion slots
-Route::get('/tutorial/motherboard/expansion_slots','PagesController@expansion_slots');
+Route::group(['prefix' => 'tutorial'],function(){
+    //motherboard
+    Route::group(['prefix' => 'motherboard'] ,function(){
+        Route::view('basics','pages.tutorial.motherboard.motherboard');
+        //components
+        Route::group(['prefix' => 'components'],function(){
+            //expansion slots
+            Route::view('expansion-slots','pages.tutorial.motherboard.components.expansion_slots');      
+            //agp slot
+            Route::view('agp','pages.tutorial.motherboard.components.agp');
+        });
+    });
 
-
+});
+Route::view('tutorial','pages.tutorial.tutorial');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');

@@ -7,26 +7,36 @@
 فرم فاکتور (form factor) چیست و انواع آن کدام اند؟ تفاوت فرم فاکتورها در چیست؟ | آشنایی با اجزای مادربورد | مادربورد مناسب کیس من کدام است؟
 @endsection
 
+@section('page-style')
+    <link rel="stylesheet" href="{{asset('css/menu.css')}}">
+@endsection
+
 @section('content')
     <div class="container">
+            
         <div class="row">
-            <div class="col-sm-3 page-index">
-                <div class="panel panel-success">
-                    <div class="panel-heading">
-                    راهنمای شما
-                    </div>
-                    <div class="panel-body">
-                    
-                        <ul>
-                            <li><span class="glyphicon glyphicon-triangle-bottom"></span><a class="disable" href="{{url('/tutorial/motherboard/basics')}}"> مادربورد</a><li>
-                                <ul>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-overview"> مادربورد چیسیت؟</li>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#motherboard-components"> اجزای مادربورد</li>
-                                    <li><span class="glyphicon glyphicon-triangle-left"></span><a href="#form-factor"> فرم فاکتور (form factor)</a></li>
-                                </ul>
+            <div  class="col-sm-3">
+                <div id="tutorial-side-nav">
+                    <h4>راهنمای سایت</h4>
+                    <ul>
+                        
+                        <li><a href="">کارت گرافیک</a></li>
+                        <li><a class="has-sub" href="">مادربورد </a>
+                            <ul>
                             
-                        </ul>
-                    </div>  
+                            <li><a href="">اجزا</a> </li>
+                            <li><a href="">انواع</a>
+                                <ul>
+                                    <li><a href="">مورد اول</a></li>
+                                    <li><a href="">مورد دوم</a></li>
+                                    <li><a href="">مورد سوم</a></li>
+                                </ul>
+                            </li> 
+                            <li><a href="">اقسام :)</a> </li>
+                            </ul>
+                        </li>
+                        <li><a href="">پردازنده</a></li>
+                    </ul>
                 </div>
             </div>
             
