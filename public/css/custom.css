@@ -22,7 +22,7 @@ body p {
 }
 
 .table tbody .odd-row {
-  background-color: #efffc3;
+  background-color: #f7fde0;
 }
 
 .table > tbody > tr > td {
@@ -235,7 +235,7 @@ body p {
 }
 
 @media (max-width: 767px) {
-  .page-index {
+  #tutorial-side-nav {
     display: none;
   }
 }

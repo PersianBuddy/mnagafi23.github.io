@@ -122,7 +122,7 @@
                 </table>
                 <figure>
                     <img class="img-responsive" src="/images/md/motherboard/pci_express_types.jpg">
-                    <figcaption>
+                    <figcaption class="text-center">
                         انواع اسلات PCI-Express براساس تعداد مسیر
                     </figcaption>
                 </figure>
@@ -134,6 +134,11 @@
                 <p>
                         نسخه‌های PCI-E با هم سازگارند؛ ولی اگر نسخه‌کارت و اسلات با هم متفاوت باشند، گذرگاه با سرعت نسخه پایین‌تر کار خواهد کرد.
                 </p>
+
+                {{--  related links  --}}
+                <div id="related-links">
+
+                </di>
                  
                 
             </div>
