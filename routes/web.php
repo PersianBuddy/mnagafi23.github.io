@@ -29,6 +29,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('expansion-slots','pages.tutorial.motherboard.components.expansion_slots');      
             //agp slot
             Route::view('agp','pages.tutorial.motherboard.components.agp');
+            Route::view('pci-express','pages.tutorial.motherboard.components.pci_express');
         });
     });
 
