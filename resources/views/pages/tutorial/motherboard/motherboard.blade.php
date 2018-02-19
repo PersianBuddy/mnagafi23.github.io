@@ -41,7 +41,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <li><a href="{{url('/tutorial/motherboard/components/expansion-slots')}}"> اسلات توسعه</a> ( <a href="{{url('tutorial/motherboard/components/pci')}}">PCI</a> , <a href="{{url('tutorial/motherboard/components/pci-express')}}">PCI Express</a> , <a href="{{url('tutorial/motherboard/components/agp')}}">AGP</a> )</li>
-                                    <li><a href="">کانکتورهای فن (3-pin fan conectorors)</a></li>
+                                    <li><a href="{{url('/tutorial/motherboard/components/case-fan')}}">کانکتورهای فن (3-pin fan conectorors)</a></li>
                                     <li><a href="">کانکتورهای پشت مادربورد</a></li>
                                     <li><a href="">Heat Sink</a></li>
                                     <li><a href="">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>

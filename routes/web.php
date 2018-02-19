@@ -31,6 +31,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('agp','pages.tutorial.motherboard.components.agp');
             Route::view('pci-express','pages.tutorial.motherboard.components.pci_express');
             Route::view('pci','pages.tutorial.motherboard.components.pci');
+            Route::view('case-fan','pages.tutorial.motherboard.components.case_fan');
         });
     });
 

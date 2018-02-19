@@ -74,6 +74,9 @@
                         در اسلات‌های PCI بریدگی‌هایی به نام notch وجوددارد که مشخص می‌کند که اسلات با چه ولتاژی کار می‌کند. در زیر تصویر این اسلات‌ها و محل قرارگیری notch مشخص شده است:
                 </p>
                 <img class="img-responsive" src="/images/md/motherboard/pci_types_voltage.jpg">
+                <p>
+                        <span class="glyphicon glyphicon-hand-left"></span>
+                    </p>
                 
                 {{--  related links  --}}
                 <div id="related-links">
