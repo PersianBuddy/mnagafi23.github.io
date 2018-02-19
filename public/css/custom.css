@@ -21,6 +21,14 @@ body p {
   text-indent: 1em;
 }
 
+.table tbody .odd-row {
+  background-color: #efffc3;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle !important;
+}
+
 .col-divider [class*='col-']:not(:first-child):after {
   background: #e0e0e0;
   width: 1px;

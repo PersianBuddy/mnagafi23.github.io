@@ -16,81 +16,124 @@
             </div>
             
             <div class="col-sm-9 page-content">
-                 <div id="agp-overview">
-                    <h3>AGP</h3>
-                    <p>
-                            گذرگاه AGP (Accelerated Graphics Port) یک گذرگاه اختصاصی و بهینه شده برای کارت گرافیک است، که توسط <a href="">اینتل </a> در سال <a href="">۱۹۹۷</a> معرفی شد. AGP  یک اتصال نقطه به نقطه است که </a href="">کارت ویدیو (video card)</a>  را به <a href="">مادربورد</a> متصل می‌کند.
-                     </p>
-                     <img class="img-responsive" src="/images/md/motherboard/agp.jpg">
-                     <h4>این گذرگاه نسبت به<a href=""> PCI</a> دو مزیت دارد:</h4>
-                     <ul>
-                            
-                        <li>به کارت ویدیو این امکان را می‌دهد تا از پهنای باند کامل گذرگاه استفاده کند.</li>
-                        <li>کارت متصل شده به AGP مستقیماً داده‌های داخل <a href="">رم (RAM)</a> را بخواند. درصورتی که در PCI باید ابتدا داده‌‌های کارت ویدیو، کپی و سپس خوانده شود.</li>
-                        <p>
-                                <span class="glyphicon glyphicon-hand-left"></span> به مقدار حافظه‌ی سیستم قابل دسترس برای AGP، aperture گفته می‌شود و مقدار آن در <a href="">تنظیمات بایوس </a>(BIOS setup) قابل تنظیم است.
-                            </p>
-                     </ul>
-                     <h4>در زیر چهار نوع گذرگاه AGP نمایش داده شده است:</h4>
-                     <table class="table table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th>نوع AGP</th>
-                                <th><a href="">سرعت ساعت (MHz)</a></th>
-                                <th>انتقال داده در هر <a href="">سیکل ساعت</a></th>
-                                <th>طول گذرگاه</th>
-                                <th>سرعت انتقال داده‌ها (MB/s)</th>
-                            <tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>AGP 1x</td>
-                                <td>66</td>
-                                <td>1</td>
-                                <td>32</td>
-                                <td>266</td>
-                            </tr>
-                            <tr>
-                                <td>AGP 2x</td>
-                                <td>66</td>
-                                <td>2</td>
-                                <td>32</td>
-                                <td>533</td>
-                            </tr>
-                            <tr>
-                                <td>AGP 4x</td>
-                                <td>66</td>
-                                <td>4</td>
-                                <td>32</td>
-                                <td>1066</td>
-                            </tr>
-                            <tr>
-                                <td>AGP 8x</td>
-                                <td>66</td>
-                                <td>8</td>
-                                <td>32</td>
-                                <td>2133</td>
-                            </tr>
-                        </tbody>
-                     </table>
-                     <h4>ولتاژ ورودی</h4>
-                     <p>
-                            برخی اسلات‌ ها و کارت‌های AGP با ولتاژ ۳.۳ ولت و برخی با ولتاژ ۱.۵ ولت کار کرده و برخی هر دو را پستیبانی می‌کنند. این تفاوت را می‌توان از محل قرارگیری notch بروی اسلات متوجه شد، اسلات های بدون notch هردو ولتاژ را پشتیبانی کرده و AGP Universal نامیده می‌شوند.
-                     </p>
-                     <p>
-                            کارت ها و اسلات هایی هم به نام AGP Pro نیز ارائه شده‌اند که دارای پین‌های اضافه در دو انتهای اسلات و کارت هستند که به کارت گرافیک این امکان را می دهد که با سرعت بالاتر و مصرف برق بیشتری کار کند.
-                            این نوع AGP با انواع دیگر سازکاری دارد.
-                            
-                     </p>
-                     <div class="thumbnail">
-                        <img src="/images/md/motherboard/agp_types_voltage.jpg" alt="agp" class="img-responsive">
-                        <div class="caption">
-                            <p>انواع اسلات AGP براساس ولتاژ (لبه‌ی مادربورد سمت چپ قرار گرفته)</p>
-                        </div>
-                    </div>
-                    
-
-                 </div>
+                <h3>اسلات PCI-Express</h3>
+                <p>
+                        گذرگاه PCI-Express یا PCI-E، در واقع یک اتصال نقطه به نقطه است برای اتصال کارت‌های PCI-Express . در PCI-Express برخلاف دیگر گذرکاه ها که داده‌ها را بصورت موازی انتقال می‌دهند، انتقال داده‌ها را از طریق خطوط ارتباطی سریال به نام lane (مسیر)، انجام می‌پذیرد.
+                </p>
+                <img class="img-responsive" src="/images/md/motherboard/pci_express_card.png">
+                <h4>انواع اسلات PCIe</h4>
+                <p>
+                        اسلات‌های PCI-E یک یا تعداد بیشتر  lane (مسیر) را دربرمی‌گیرند و هر lane شامل یک خط انتقال دوطرفه است.حال با در نظر گرفتن اینکه سه نسخه برای PCI-E در نظر گرفته شده است و اینکه در نسخه ۱ سرعت هر lane (مسیر) ۲۵۰ مگابایت بر ثانیه و در نسخه ۲ سرعت 500 مگابایت بر ثانیه و نسخه ۳ سرعت انتقال داده‌ها 1 گیگابایت بر ثانیه است به جدول زیر توجه فرمایید! 
+                </p>
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th>نوع PCI-E</th>
+                            <th>نسخه PCIe</th>
+                            <th>تعداد مسیر (lane)</th>
+                            <th>تعداد پین</th>
+                            <th>طول اسلات (mm)</th>
+                            <th>سرعت انتقال داده‌ها (GB/s)</th>
+                        <tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd-row">
+                            <td rowspan="3">X1</td>
+                            <td>1</td>
+                            <td rowspan="3">1</td>
+                            <td rowspan="3">36</td>
+                            <td rowspan="3">25</td>
+                            <td>0.25</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td>2</td>
+                            <td>0.5</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td>3</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">X2</td>
+                            <td>1</td>
+                            <td rowspan="3">2</td>
+                            <td rowspan="3">-</td>
+                            <td rowspan="3">-</td>
+                            <td>0.5</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>2</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td rowspan="3">X4</td>
+                            <td>1</td>
+                            <td rowspan="3">4</td>
+                            <td rowspan="3">64</td>
+                            <td rowspan="3">39</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">X8</td>
+                            <td>1</td>
+                            <td rowspan="3">8</td>
+                            <td rowspan="3">98</td>
+                            <td rowspan="3">56</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>8</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td rowspan="3">X16</td>
+                            <td>1</td>
+                            <td rowspan="3">16</td>
+                            <td rowspan="3">164</td>
+                            <td rowspan="3">89</td>
+                            <td>4</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td>2</td>
+                            <td>8</td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td>3</td>
+                            <td>16</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <figure>
+                    <img class="img-responsive" src="/images/md/motherboard/pci_express_types.jpg">
+                    <figcaption>
+                        انواع اسلات PCI-Express براساس تعداد مسیر
+                    </figcaption>
+                </figure>
+                <h4>آیا باید تعداد مسیر کارت و اسلات یکی باشد؟</h4>
+                <p>
+                        PCI-E دارای ویژگی backward compatibility است؛ یعنی اسلات‌ها با تعداد مسیر (lane) بیشتر کارت‌ها با مسیر‌های کمتر را نیز پشتیبانی می‌کنند.
+                </p>
+                <h4>آیا می‌توان از کارت با PCIe نسخه بالا در اسلات با نسخه پایین PCI-E استفاده کرد؟</h4>
+                <p>
+                        نسخه‌های PCI-E با هم سازگارند؛ ولی اگر نسخه‌کارت و اسلات با هم متفاوت باشند، گذرگاه با سرعت نسخه پایین‌تر کار خواهد کرد.
+                </p>
                  
                 
             </div>

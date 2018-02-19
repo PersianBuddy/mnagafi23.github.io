@@ -18,6 +18,21 @@ body {
     }
 }
 
+//table
+//custom stipped table
+.table {
+    tbody {
+        .odd-row {
+            background-color: rgb(239, 255, 195);
+        }
+    }
+}
+
+//make rowspan in middle
+.table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
 .col-divider [class*='col-']:not(:first-child):after {
     background: #e0e0e0;
     width: 1px;
