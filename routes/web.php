@@ -31,6 +31,8 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('اسلات-pci','pages.tutorial.motherboard.components.pci');
             Route::view('فن-کیس','pages.tutorial.motherboard.components.case_fan');
             Route::view('پنل-پشت-مادربورد','pages.tutorial.motherboard.components.back_panel');
+            Route::view('heat-sink','pages.tutorial.motherboard.components.heat_sink');
+            Route::view('کانکتور-p4-پاور','pages.tutorial.motherboard.components.p4_connector');
         });
     });
 

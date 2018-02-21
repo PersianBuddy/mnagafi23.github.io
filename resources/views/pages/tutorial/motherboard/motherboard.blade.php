@@ -43,8 +43,8 @@
                                     <li><a href="{{url('/tutorial/motherboard/components/اسلات-توسعه')}}"> اسلات توسعه</a> ( <a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a> , <a href="{{url('tutorial/motherboard/components/اسلات-pci-express')}}">PCI Express</a> , <a href="{{url('tutorial/motherboard/components/اسلات-agp')}}">AGP</a> )</li>
                                     <li><a href="{{url('/tutorial/motherboard/components/فن-کیس')}}">کانکتور فن</a></li>
                                     <li><a href="{{url('/tutorial/motherboard/components/پنل-پشت-مادربورد')}}">پنل پشت مادربورد</a></li>
-                                    <li><a href="">Heat Sink</a></li>
-                                    <li><a href="">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>
+                                    <li><a href="{{url('/tutorial/motherboard/components/heat-sink')}}">Heat Sink</a></li>
+                                    <li><a href="{{url('/tutorial/motherboard/components/کانکتور-p4-پاور')}}">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>
                                     <li><a href="">Inductor</a></li>
                                     <li><a href="">خازن (Capacitors)</a></li>
                                     <li><a href="">سوکت پردازنده (CPU socket)</a></li>
