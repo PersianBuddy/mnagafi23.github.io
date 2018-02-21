@@ -211,7 +211,7 @@ ul.list-number {
     //motherboard components
     #motherboard-components {
         ul {
-            list-style-type: decimal;
+            list-style: none !important;
         }
     }
     .table {

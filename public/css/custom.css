@@ -223,7 +223,7 @@ ul.list-number {
 }
 
 .page-content #motherboard-components ul {
-  list-style-type: decimal;
+  list-style: none !important;
 }
 
 .page-content .table {

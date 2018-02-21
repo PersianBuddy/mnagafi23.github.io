@@ -40,38 +40,39 @@
                         <ul>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <li><a href="{{url('/tutorial/motherboard/components/اسلات-توسعه')}}"> اسلات توسعه</a> ( <a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a> , <a href="{{url('tutorial/motherboard/components/اسلات-pci-express')}}">PCI Express</a> , <a href="{{url('tutorial/motherboard/components/اسلات-agp')}}">AGP</a> )</li>
-                                    <li><a href="{{url('/tutorial/motherboard/components/فن-کیس')}}">کانکتور فن</a></li>
-                                    <li><a href="{{url('/tutorial/motherboard/components/پنل-پشت-مادربورد')}}">پنل پشت مادربورد</a></li>
-                                    <li><a href="{{url('/tutorial/motherboard/components/heat-sink')}}">Heat Sink</a></li>
-                                    <li><a href="{{url('/tutorial/motherboard/components/کانکتور-p4-پاور')}}">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>
-                                    <li><a href="">Inductor</a></li>
-                                    <li><a href="">خازن (Capacitors)</a></li>
-                                    <li><a href="">سوکت پردازنده (CPU socket)</a></li>
-                                    <li><a href="">Northbridge</a></li>
-                                    <li><a href="">کانکتور ۴ پین فن پردازنده</a></li>
-                                    <li><a href="">مدل مادربورد</a></li>
-                                    <li><a href="">اسلات‌های حافظه (memory slots)</a></li>
-                                    <li><a href="">Super I/O</a></li>
-                                    <li><a href="">محل نصب پیچ‌ها</a></li>
-                                    <li><a href="">کانکتور فلاپی (Flopy connector)</a></li>
+                                    <li>1- <a href="{{url('/tutorial/motherboard/components/اسلات-توسعه')}}"> اسلات توسعه</a> ( <a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a> , <a href="{{url('tutorial/motherboard/components/اسلات-pci-express')}}">PCI Express</a> , <a href="{{url('tutorial/motherboard/components/اسلات-agp')}}">AGP</a> )</li>
+                                    <li>2- <a href="{{url('/tutorial/motherboard/components/فن-کیس')}}">کانکتور فن</a></li>
+                                    <li>3- <a href="{{url('/tutorial/motherboard/components/پنل-پشت-مادربورد')}}">پنل پشت مادربورد</a></li>
+                                    <li>4- <a href="{{url('/tutorial/motherboard/components/heat-sink')}}">Heat Sink</a></li>
+                                    <li>5- <a href="{{url('/tutorial/motherboard/components/کانکتور-p4-پاور')}}">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>
+                                    <li style="display:none;"><a href="">Inductor</a></li>
+                                    <li style="display:none;"><a href="">خازن (Capacitors)</a></li>
+                                    <li>8- <a href="">سوکت پردازنده (CPU socket)</a></li>
+                                    <li>9- <a href="">Northbridge</a></li>
+                                    <li>10- <a href="">کانکتور ۴ پین فن پردازنده</a></li>
+                                    <li>11- <a href="">مدل مادربورد</a></li>
+                                    <li>12- <a href="">اسلات‌های حافظه (memory slots)</a></li>
+                                    <li>13- <a href="">Super I/O</a></li>
+                                    <li>14- <a href="">محل نصب پیچ‌ها</a></li>
+                                    <li>15- <a href="">کانکتور فلاپی (Flopy connector)</a></li>
+                                    <li>16- <a href="">IDE connector</a></li>
                                 </div>
                                 <div class="col-md-6">
-                                     <li><a href="">IDE connector</a></li>
-                                    <li><a href="">کانکتور ۲۴ پین پاور</a></li>
-                                    <li><a href="">South Bridge</a></li>
-                                    <li><a href="">کانکتور SATA</a></li>
-                                    <li><a href="">باتری ذخیره مادربورد (CMOS)</a></li>
-                                    <li><a href="">RAID</a></li>
-                                    <li><a href="">Front Panel connectors/system panel connectors</a></li>
-                                    <li><a href="">FWH</a></li>
-                                    <li><a href="">کانکتور پورت سریال (Serial Port connector)</a></li>
-                                    <li><a href="">هدر USB</a></li>
-                                    <li><a href="">جامپر (Jumpers)</a></li>
-                                    <li><a href="">ای‌سی (Integrated circuit)</a></li>
-                                    <li><a href="">هدر ۱۳۹۴</a></li>
-                                    <li><a href="">SPDIF</a></li>
-                                    <li><a href="">CD-IN</a></li>
+                                     
+                                    <li>17- <a href="">کانکتور ۲۴ پین پاور</a></li>
+                                    <li>18- <a href="">South Bridge</a></li>
+                                    <li>19- <a href="">کانکتور SATA</a></li>
+                                    <li>20- <a href="">باتری ذخیره مادربورد (CMOS)</a></li>
+                                    <li>21- <a href="">RAID</a></li>
+                                    <li>22- <a href="">Front Panel connectors/system panel connectors</a></li>
+                                    <li>23- <a href="">FWH</a></li>
+                                    <li>24- <a href="">کانکتور پورت سریال (Serial Port connector)</a></li>
+                                    <li>25- <a href="">هدر USB</a></li>
+                                    <li>26- <a href="">جامپر (Jumpers)</a></li>
+                                    <li>27- <a href="">ای‌سی (Integrated circuit)</a></li>
+                                    <li>28- <a href="">هدر ۱۳۹۴</a></li>
+                                    <li>29- <a href="">SPDIF</a></li>
+                                    <li>30- <a href="">CD-IN</a></li>
                                 </div>
                             </div>
                         </ul>
