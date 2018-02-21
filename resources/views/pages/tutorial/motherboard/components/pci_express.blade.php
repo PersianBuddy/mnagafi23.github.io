@@ -20,7 +20,7 @@
                 <p>
                         گذرگاه PCI-Express یا PCI-E، در واقع یک اتصال نقطه به نقطه است برای اتصال کارت‌های PCI-Express . در PCI-Express برخلاف دیگر گذرکاه ها که داده‌ها را بصورت موازی انتقال می‌دهند، انتقال داده‌ها را از طریق خطوط ارتباطی سریال به نام lane (مسیر)، انجام می‌پذیرد.
                 </p>
-                <img class="img-responsive" src="/images/md/motherboard/pci_express_card.png">
+                <img class="img-responsive" alt="کارت-گرافیک برای اسلات pci-express" src="/images/md/motherboard/کارت-گرافیک-amd.png">
                 <h4>انواع اسلات PCIe</h4>
                 <p>
                         اسلات‌های PCI-E یک یا تعداد بیشتر  lane (مسیر) را دربرمی‌گیرند و هر lane شامل یک خط انتقال دوطرفه است.حال با در نظر گرفتن اینکه سه نسخه برای PCI-E در نظر گرفته شده است و اینکه در نسخه ۱ سرعت هر lane (مسیر) ۲۵۰ مگابایت بر ثانیه و در نسخه ۲ سرعت 500 مگابایت بر ثانیه و نسخه ۳ سرعت انتقال داده‌ها 1 گیگابایت بر ثانیه است به جدول زیر توجه فرمایید! 
@@ -121,7 +121,7 @@
                     </tbody>
                 </table>
                 <figure>
-                    <img class="img-responsive" src="/images/md/motherboard/pci_express_types.jpg">
+                    <img class="img-responsive" alt="انواع اسلات pci-express براساس تعداد مسیر و طول اسلات" src="/images/md/motherboard/انواع-اسلات-pci-express.jpg">
                     <figcaption class="text-center">
                         انواع اسلات PCI-Express براساس تعداد مسیر
                     </figcaption>

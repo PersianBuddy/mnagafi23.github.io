@@ -73,7 +73,7 @@
                      <p>
                         در مادربورد زیر می‌توانید برخی از  شیارها (اسلات های) توسعه را در قسمت بالا سمت چپ ببینید! 
                      </p>
-                     <a href="/images/xl/motherboard/ASUS_P5AD2-E.jpg"><img class="img-responsive" src="/images/md/motherboard/ASUS_P5AD2-E.jpg"></a>
+                     <a href="/images/xl/motherboard/اجزای-مادربورد.jpg"><img class="img-responsive" alt="اجزای مادربورد" src="/images/md/motherboard/اجزای-مادربورد.jpg"></a>
                  </div>
                 
             </div>

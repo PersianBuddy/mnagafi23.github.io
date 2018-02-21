@@ -21,7 +21,7 @@
                         گذرگاه Preipheral Component Interconnect یا به اختصار PCI رایج ترین گذرگاه‌ها در کامپیوتر‌های دهه ۹۰ میلادی بوده است.
                         PCI در سال ۱۹۹۲ توسط کمپانی <a href="">اینتل </a>(Intel) در دو نوع  <a href="">۳۲ بیت</a> (32-bit) و <a href="">۶۴ بیت</a> (64-bit) به بازار عرضه شد.در حال حاظر این گذرگاه جای خود را به <a href="">PCI-Express</a> داده است.
                 </p>
-                <img class="img-responsive" src="/images/md/motherboard/pci_slots.jpg">
+                <img class="img-responsive" alt="اسلات pci" src="/images/md/motherboard/اسلات-pci.jpg">
                <h4>انواع اسلات PCI</h4>
                <p>
                     گذرگاه PCI در چهار نوع عرضه می‌شود که در جدول زیر نام و مشخصات آن‌ها نمایش داده شده است:
@@ -73,10 +73,8 @@
                         برخی اسلات‌های PCI ولتاژ ۵ ولت و برخی ولتاژ ۳.۳ ولت را ارائه می‌دهند. برخی ار آن‌ها نیز هر دو ولتاژ را ارائه می‌دهند که Universal PCI bus نامیده می‌شوند.
                         در اسلات‌های PCI بریدگی‌هایی به نام notch وجوددارد که مشخص می‌کند که اسلات با چه ولتاژی کار می‌کند. در زیر تصویر این اسلات‌ها و محل قرارگیری notch مشخص شده است:
                 </p>
-                <img class="img-responsive" src="/images/md/motherboard/pci_types_voltage.jpg">
-                <p>
-                        <span class="glyphicon glyphicon-hand-left"></span>
-                    </p>
+                <img class="img-responsive" alt="انواع اسلات pci براساس محل قرارگیری notch" src="/images/md/motherboard/انواع-اسلات-pci.jpg">
+               
                 
                 {{--  related links  --}}
                 <div id="related-links">

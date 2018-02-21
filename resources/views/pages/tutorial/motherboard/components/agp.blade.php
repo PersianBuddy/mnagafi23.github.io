@@ -19,9 +19,10 @@
                  <div id="agp-overview">
                     <h3>AGP</h3>
                     <p>
-                            گذرگاه AGP (Accelerated Graphics Port) یک گذرگاه اختصاصی و بهینه شده برای کارت گرافیک است، که توسط <a href="">اینتل </a> در سال <a href="">۱۹۹۷</a> معرفی شد. AGP  یک اتصال نقطه به نقطه است که </a href="">کارت ویدیو (video card)</a>  را به <a href="">مادربورد</a> متصل می‌کند.
+                            گذرگاه AGPیا  Accelerated Graphics Port یک گذرگاه اختصاصی و بهینه شده برای <a href="">کارت گرافیک</a> است، که توسط <a href="">اینتل </a> در سال <a href="">۱۹۹۷</a> معرفی شد. AGP  یک اتصال نقطه به نقطه است که </a href="">کارت ویدیو (video card)</a>  را به <a href="">مادربورد</a> متصل می‌کند.
+                            در زیر یک نمونه کارت گرافیک مناسب برای اسلات agp را مشاهده می‌کنید
                      </p>
-                     <img class="img-responsive" src="/images/md/motherboard/agp_video_card.gif">
+                     <img class="img-responsive" alt="کارت گرافیک قدیمی با اسلات agp" src="/images/md/motherboard/کارت-گرافیک-قدیمی-agp.png">
                      <h4>این گذرگاه نسبت به<a href=""> PCI</a> دو مزیت دارد:</h4>
                      <ul>
                             
@@ -31,7 +32,7 @@
                                 <span class="glyphicon glyphicon-hand-left"></span> به مقدار حافظه‌ی سیستم قابل دسترس برای AGP، aperture گفته می‌شود و مقدار آن در <a href="">تنظیمات بایوس </a>(BIOS setup) قابل تنظیم است.
                             </p>
                      </ul>
-                     <img class="img-responsive" src="/images/md/motherboard/agp_slot.jpg">
+                     <img class="img-responsive" alt="اسلات agp" src="/images/md/motherboard/اسلات-agp.jpg">
                      <h4>در زیر چهار نوع گذرگاه AGP نمایش داده شده است:</h4>
                      <table class="table table-striped table-hover">
                         <thead>
@@ -84,7 +85,7 @@
                             
                      </p>
                      <div class="thumbnail">
-                        <img src="/images/md/motherboard/agp_types_voltage.jpg" alt="agp" class="img-responsive">
+                        <img src="/images/md/motherboard/انواع-اسلات-agp.jpg" alt="انواع اسلات agp براساس ولتاژ و محل قرارگیری notch" class="img-responsive">
                         <div class="caption">
                             <p>انواع اسلات AGP براساس ولتاژ (لبه‌ی مادربورد سمت چپ قرار گرفته)</p>
                         </div>

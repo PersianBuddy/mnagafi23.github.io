@@ -22,16 +22,15 @@ Route::get('/', 'PagesController@index');
 Route::group(['prefix' => 'tutorial'],function(){
     //motherboard
     Route::group(['prefix' => 'motherboard'] ,function(){
-        Route::view('basics','pages.tutorial.motherboard.motherboard');
-        //components
+        Route::view('مادربورد-چیست','pages.tutorial.motherboard.motherboard');
+        //motherboard components
         Route::group(['prefix' => 'components'],function(){
-            //expansion slots
-            Route::view('expansion-slots','pages.tutorial.motherboard.components.expansion_slots');      
-            //agp slot
-            Route::view('agp','pages.tutorial.motherboard.components.agp');
-            Route::view('pci-express','pages.tutorial.motherboard.components.pci_express');
-            Route::view('pci','pages.tutorial.motherboard.components.pci');
-            Route::view('case-fan','pages.tutorial.motherboard.components.case_fan');
+            Route::view('اسلات-توسعه','pages.tutorial.motherboard.components.expansion_slots');      
+            Route::view('اسلات-agp','pages.tutorial.motherboard.components.agp');
+            Route::view('اسلات-pci-express','pages.tutorial.motherboard.components.pci_express');
+            Route::view('اسلات-pci','pages.tutorial.motherboard.components.pci');
+            Route::view('فن-کیس','pages.tutorial.motherboard.components.case_fan');
+            Route::view('پنل-پشت-مادربورد','pages.tutorial.motherboard.components.back_panel');
         });
     });
 

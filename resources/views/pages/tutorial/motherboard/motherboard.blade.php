@@ -23,8 +23,8 @@
                         <p>
                          یک مادربورد به روایت تصویر  ASUS P5AD2-E:
                         </p>
-                        <a href="/images/xl/motherboard/ASUS_P5AD2-E.jpg">
-                            <img class="img-responsive" src="/images/md/motherboard/ASUS_P5AD2-E.jpg">
+                        <a href="/images/xl/motherboard/اجزای-مادربورد.jpg">
+                            <img alt="اجزای یک مادربورد" title="برای مشاهده تصویر بزرگ کلیک کنید" class="img-responsive" src="/images/md/motherboard/اجزای-مادربورد.jpg">
                         </a>
                   </div> 
 
@@ -40,9 +40,9 @@
                         <ul>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <li><a href="{{url('/tutorial/motherboard/components/expansion-slots')}}"> اسلات توسعه</a> ( <a href="{{url('tutorial/motherboard/components/pci')}}">PCI</a> , <a href="{{url('tutorial/motherboard/components/pci-express')}}">PCI Express</a> , <a href="{{url('tutorial/motherboard/components/agp')}}">AGP</a> )</li>
-                                    <li><a href="{{url('/tutorial/motherboard/components/case-fan')}}">کانکتورهای فن (3-pin fan conectorors)</a></li>
-                                    <li><a href="">کانکتورهای پشت مادربورد</a></li>
+                                    <li><a href="{{url('/tutorial/motherboard/components/اسلات-توسعه')}}"> اسلات توسعه</a> ( <a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a> , <a href="{{url('tutorial/motherboard/components/اسلات-pci-express')}}">PCI Express</a> , <a href="{{url('tutorial/motherboard/components/اسلات-agp')}}">AGP</a> )</li>
+                                    <li><a href="{{url('/tutorial/motherboard/components/فن-کیس')}}">کانکتور فن</a></li>
+                                    <li><a href="{{url('/tutorial/motherboard/components/پنل-پشت-مادربورد')}}">پنل پشت مادربورد</a></li>
                                     <li><a href="">Heat Sink</a></li>
                                     <li><a href="">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>
                                     <li><a href="">Inductor</a></li>
