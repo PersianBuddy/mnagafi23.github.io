@@ -28,6 +28,10 @@ body {
     }
 }
 
+ul.list-number {
+    list-style-type: decimal !important;
+}
+
 //make rowspan in middle
 .table>tbody>tr>td {
     vertical-align: middle !important;

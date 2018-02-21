@@ -75,7 +75,7 @@
                             </tr>
                         </tbody>
                      </table>
-                     <h4>ولتاژ ورودی</h4>
+                     <h4>ولتاژ ورودی اسلات agp</h4>
                      <p>
                             برخی اسلات‌ ها و کارت‌های AGP با ولتاژ ۳.۳ ولت و برخی با ولتاژ ۱.۵ ولت کار کرده و برخی هر دو را پستیبانی می‌کنند. این تفاوت را می‌توان از محل قرارگیری notch بروی اسلات متوجه شد، اسلات های بدون notch هردو ولتاژ را پشتیبانی کرده و AGP Universal نامیده می‌شوند.
                      </p>
@@ -84,11 +84,13 @@
                             این نوع AGP با انواع دیگر سازکاری دارد.
                             
                      </p>
-                     <div class="thumbnail">
-                        <img src="/images/md/motherboard/انواع-اسلات-agp.jpg" alt="انواع اسلات agp براساس ولتاژ و محل قرارگیری notch" class="img-responsive">
-                        <div class="caption">
-                            <p>انواع اسلات AGP براساس ولتاژ (لبه‌ی مادربورد سمت چپ قرار گرفته)</p>
-                        </div>
+                    
+                        <figure>
+                                <img src="/images/md/motherboard/انواع-اسلات-agp.jpg" alt="انواع اسلات agp براساس ولتاژ و محل قرارگیری notch" class="img-responsive">
+                                <figcaption class="text-center">
+                                        <em>تصویر بالا: </em>انواع اسلات AGP براساس ولتاژ (لبه‌ی مادربورد سمت چپ قرار گرفته)
+                                </figcaption>
+                        </figure>
                     </div>
                     
 

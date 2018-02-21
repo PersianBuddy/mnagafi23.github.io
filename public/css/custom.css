@@ -25,6 +25,10 @@ body p {
   background-color: #f7fde0;
 }
 
+ul.list-number {
+  list-style-type: decimal !important;
+}
+
 .table > tbody > tr > td {
   vertical-align: middle !important;
 }
