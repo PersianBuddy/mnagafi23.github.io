@@ -48,17 +48,14 @@
                                     <li>8- <a href="{{url('/tutorial/motherboard/components/سوکت-پردازنده')}}">سوکت پردازنده (CPU socket)</a></li>
                                     <li>9- <a href="{{url('/tutorial/motherboard/components/northbridge-چیست')}}">Northbridge</a></li>
                                     <li>12- <a href="{{url('/tutorial/motherboard/components/اسلات-رم')}}">اسلات‌های حافظه (memory slots)</a></li>
-                                    <li>13- <a href="">Super I/O</a></li>
-                                    <li>14- <a href="">محل نصب پیچ‌ها</a></li>
-                                    <li>15- <a href="">کانکتور فلاپی (Flopy connector)</a></li>
-                                    <li>16- <a href="">IDE connector</a></li>
+                                    <li>13- <a href="{{url('/tutorial/motherboard/components/super-io-چیست')}}">Super I/O</a></li>
+                                    <li>16- <a href="{{url('/tutorial/motherboard/components/کانکتور-ide')}}">کانکتور IDE یا ATA</a></li>
                                     <li>17- <a href="">کانکتور ۲۴ پین پاور</a></li>
-                                </div>
-                                <div class="col-md-6">
-                                     
-                                    
                                     <li>18- <a href="">South Bridge</a></li>
                                     <li>19- <a href="">کانکتور SATA</a></li>
+                                </div>
+                                <div class="col-md-6">
+                                    
                                     <li>20- <a href="">باتری ذخیره مادربورد (CMOS)</a></li>
                                     <li>21- <a href="">RAID</a></li>
                                     <li>22- <a href="">Front Panel connectors/system panel connectors</a></li>

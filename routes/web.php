@@ -36,6 +36,8 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('سوکت-پردازنده','pages.tutorial.motherboard.components.cpu_socket');
             Route::view('northbridge-چیست','pages.tutorial.motherboard.components.northbridge');
             Route::view('اسلات-رم','pages.tutorial.motherboard.components.memory_slot');
+            Route::view('super-io-چیست','pages.tutorial.motherboard.components.sio');
+            Route::view('کانکتور-ide','pages.tutorial.motherboard.components.ide_connector');
         });
     });
 
