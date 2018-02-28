@@ -48,7 +48,7 @@
                                     <li style="display:none;"><a href="">Inductor</a></li>
                                     <li style="display:none;"><a href="">خازن (Capacitors)</a></li>
                                     <li>8- <a href="{{url('/tutorial/motherboard/components/سوکت-پردازنده')}}">سوکت پردازنده (CPU socket)</a></li>
-                                    <li>9- <a href="">Northbridge</a></li>
+                                    <li>9- <a href="{{url('/tutorial/motherboard/components/northbridge-چیست')}}">Northbridge</a></li>
                                     <li>10- <a href="">کانکتور ۴ پین فن پردازنده</a></li>
                                     <li>11- <a href="">مدل مادربورد</a></li>
                                     <li>12- <a href="">اسلات‌های حافظه (memory slots)</a></li>

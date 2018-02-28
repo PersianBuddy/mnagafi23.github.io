@@ -34,6 +34,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('heat-sink','pages.tutorial.motherboard.components.heat_sink');
             Route::view('کانکتور-p4-پاور','pages.tutorial.motherboard.components.p4_connector');
             Route::view('سوکت-پردازنده','pages.tutorial.motherboard.components.cpu_socket');
+            Route::view('northbridge-چیست','pages.tutorial.motherboard.components.northbridge');
         });
     });
 
