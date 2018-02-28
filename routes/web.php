@@ -35,6 +35,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('کانکتور-p4-پاور','pages.tutorial.motherboard.components.p4_connector');
             Route::view('سوکت-پردازنده','pages.tutorial.motherboard.components.cpu_socket');
             Route::view('northbridge-چیست','pages.tutorial.motherboard.components.northbridge');
+            Route::view('اسلات-رم','pages.tutorial.motherboard.components.memory_slot');
         });
     });
 

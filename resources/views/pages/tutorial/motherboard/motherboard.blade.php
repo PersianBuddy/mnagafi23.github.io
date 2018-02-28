@@ -45,21 +45,18 @@
                                     <li>3- <a href="{{url('/tutorial/motherboard/components/پنل-پشت-مادربورد')}}">پنل پشت مادربورد</a></li>
                                     <li>4- <a href="{{url('/tutorial/motherboard/components/heat-sink')}}">Heat Sink</a></li>
                                     <li>5- <a href="{{url('/tutorial/motherboard/components/کانکتور-p4-پاور')}}">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>
-                                    <li style="display:none;"><a href="">Inductor</a></li>
-                                    <li style="display:none;"><a href="">خازن (Capacitors)</a></li>
                                     <li>8- <a href="{{url('/tutorial/motherboard/components/سوکت-پردازنده')}}">سوکت پردازنده (CPU socket)</a></li>
                                     <li>9- <a href="{{url('/tutorial/motherboard/components/northbridge-چیست')}}">Northbridge</a></li>
-                                    <li>10- <a href="">کانکتور ۴ پین فن پردازنده</a></li>
-                                    <li>11- <a href="">مدل مادربورد</a></li>
-                                    <li>12- <a href="">اسلات‌های حافظه (memory slots)</a></li>
+                                    <li>12- <a href="{{url('/tutorial/motherboard/components/اسلات-رم')}}">اسلات‌های حافظه (memory slots)</a></li>
                                     <li>13- <a href="">Super I/O</a></li>
                                     <li>14- <a href="">محل نصب پیچ‌ها</a></li>
                                     <li>15- <a href="">کانکتور فلاپی (Flopy connector)</a></li>
                                     <li>16- <a href="">IDE connector</a></li>
+                                    <li>17- <a href="">کانکتور ۲۴ پین پاور</a></li>
                                 </div>
                                 <div class="col-md-6">
                                      
-                                    <li>17- <a href="">کانکتور ۲۴ پین پاور</a></li>
+                                    
                                     <li>18- <a href="">South Bridge</a></li>
                                     <li>19- <a href="">کانکتور SATA</a></li>
                                     <li>20- <a href="">باتری ذخیره مادربورد (CMOS)</a></li>
