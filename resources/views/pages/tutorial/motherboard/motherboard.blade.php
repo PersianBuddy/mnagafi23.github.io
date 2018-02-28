@@ -47,7 +47,7 @@
                                     <li>5- <a href="{{url('/tutorial/motherboard/components/کانکتور-p4-پاور')}}">کانکتور ۴ پین پاور (P4 یا 4-pin)</a></li>
                                     <li style="display:none;"><a href="">Inductor</a></li>
                                     <li style="display:none;"><a href="">خازن (Capacitors)</a></li>
-                                    <li>8- <a href="">سوکت پردازنده (CPU socket)</a></li>
+                                    <li>8- <a href="{{url('/tutorial/motherboard/components/سوکت-پردازنده')}}">سوکت پردازنده (CPU socket)</a></li>
                                     <li>9- <a href="">Northbridge</a></li>
                                     <li>10- <a href="">کانکتور ۴ پین فن پردازنده</a></li>
                                     <li>11- <a href="">مدل مادربورد</a></li>

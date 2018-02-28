@@ -33,6 +33,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('پنل-پشت-مادربورد','pages.tutorial.motherboard.components.back_panel');
             Route::view('heat-sink','pages.tutorial.motherboard.components.heat_sink');
             Route::view('کانکتور-p4-پاور','pages.tutorial.motherboard.components.p4_connector');
+            Route::view('سوکت-پردازنده','pages.tutorial.motherboard.components.cpu_socket');
         });
     });
 
