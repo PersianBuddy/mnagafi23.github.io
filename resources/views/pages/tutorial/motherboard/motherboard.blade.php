@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     
-                                    <li>20- <a href="">باتری ذخیره مادربورد (CMOS)</a></li>
+                                    <li>20- <a href="{{url('/tutorial/motherboard/components/cmos-چیست')}}">باتری ذخیره مادربورد (CMOS)</a></li>
                                     <li>21- <a href="">RAID</a></li>
                                     <li>22- <a href="">Front Panel connectors/system panel connectors</a></li>
                                     <li>23- <a href="">FWH</a></li>
