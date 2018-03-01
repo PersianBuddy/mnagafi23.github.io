@@ -51,7 +51,7 @@
                                     <li>13- <a href="{{url('/tutorial/motherboard/components/super-io-چیست')}}">Super I/O</a></li>
                                     <li>16- <a href="{{url('/tutorial/motherboard/components/کانکتور-ide')}}">کانکتور IDE یا ATA</a></li>
                                     <li>17- <a href="{{url('/tutorial/motherboard/components/کانکتور-پاور-فرم-atx')}}">کانکتور ۲۴ پین پاور</a></li>
-                                    <li>18- <a href="">South Bridge</a></li>
+                                    <li>18- <a href="{{url('/tutorial/motherboard/components/southbridge-چیست')}}">South Bridge</a></li>
                                     <li>19- <a href="">کانکتور SATA</a></li>
                                 </div>
                                 <div class="col-md-6">
