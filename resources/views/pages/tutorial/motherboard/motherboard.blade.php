@@ -52,12 +52,12 @@
                                     <li>16- <a href="{{url('/tutorial/motherboard/components/کانکتور-ide')}}">کانکتور IDE یا ATA</a></li>
                                     <li>17- <a href="{{url('/tutorial/motherboard/components/کانکتور-پاور-فرم-atx')}}">کانکتور ۲۴ پین پاور</a></li>
                                     <li>18- <a href="{{url('/tutorial/motherboard/components/southbridge-چیست')}}">South Bridge</a></li>
-                                    <li>19- <a href="{{url('/tutorial/motherboard/components/sata-چیست')}}">کانکتور SATA</a></li>
+                                    <li>19- <a href="{{url('/tutorial/motherboard/components/SATA-چیست')}}">کانکتور SATA</a></li>
                                 </div>
                                 <div class="col-md-6">
                                     
-                                    <li>20- <a href="{{url('/tutorial/motherboard/components/cmos-چیست')}}">باتری ذخیره مادربورد (CMOS)</a></li>
-                                    <li>21- <a href="">RAID</a></li>
+                                    <li>20- <a href="{{url('/tutorial/motherboard/components/CMOS-چیست')}}">باتری ذخیره مادربورد (CMOS)</a></li>
+                                    <li>21- <a href="{{url('/tutorial/motherboard/components/RAID-چیست')}}">RAID</a></li>
                                     <li>22- <a href="">Front Panel connectors/system panel connectors</a></li>
                                     <li>23- <a href="">FWH</a></li>
                                     <li>24- <a href="">کانکتور پورت سریال (Serial Port connector)</a></li>
