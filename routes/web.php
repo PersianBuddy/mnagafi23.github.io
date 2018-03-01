@@ -40,6 +40,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('کانکتور-ide','pages.tutorial.motherboard.components.ide_connector');
             Route::view('کانکتور-پاور-فرم-atx','pages.tutorial.motherboard.components.atx_power_connector');
             Route::view('southbridge-چیست','pages.tutorial.motherboard.components.southbridge');
+            Route::view('sata-چیست','pages.tutorial.motherboard.components.sata');
         });
     });
 

@@ -32,6 +32,11 @@ ul.list-number {
     list-style-type: decimal !important;
 }
 
+ul.custom-list {
+    list-style: disc !important;
+    padding-right: 2em !important;
+}
+
 //make rowspan in middle
 .table>tbody>tr>td {
     vertical-align: middle !important;

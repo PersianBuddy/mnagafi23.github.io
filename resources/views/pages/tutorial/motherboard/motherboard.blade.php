@@ -52,7 +52,7 @@
                                     <li>16- <a href="{{url('/tutorial/motherboard/components/کانکتور-ide')}}">کانکتور IDE یا ATA</a></li>
                                     <li>17- <a href="{{url('/tutorial/motherboard/components/کانکتور-پاور-فرم-atx')}}">کانکتور ۲۴ پین پاور</a></li>
                                     <li>18- <a href="{{url('/tutorial/motherboard/components/southbridge-چیست')}}">South Bridge</a></li>
-                                    <li>19- <a href="">کانکتور SATA</a></li>
+                                    <li>19- <a href="{{url('/tutorial/motherboard/components/sata-چیست')}}">کانکتور SATA</a></li>
                                 </div>
                                 <div class="col-md-6">
                                     
