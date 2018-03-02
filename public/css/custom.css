@@ -34,6 +34,15 @@ ul.custom-list {
   padding-right: 2em !important;
 }
 
+.list-group .list-group-item:hover {
+  background: #1b9bff;
+  color: #fff;
+}
+
+.list-group .list-group-item:hover a {
+  color: crimson;
+}
+
 .table > tbody > tr > td {
   vertical-align: middle !important;
 }

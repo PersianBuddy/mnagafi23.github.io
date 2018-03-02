@@ -28,6 +28,7 @@ body {
     }
 }
 
+// list
 ul.list-number {
     list-style-type: decimal !important;
 }
@@ -35,6 +36,18 @@ ul.list-number {
 ul.custom-list {
     list-style: disc !important;
     padding-right: 2em !important;
+}
+
+.list-group {
+    .list-group-item {
+        &:hover {
+            a {
+                color: crimson;
+            }
+            background: #1b9bff;
+            color: #fff;
+        }
+    }
 }
 
 //make rowspan in middle

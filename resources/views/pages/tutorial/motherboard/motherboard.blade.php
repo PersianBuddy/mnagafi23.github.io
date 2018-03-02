@@ -58,7 +58,7 @@
                                     
                                     <li>20- <a href="{{url('/tutorial/motherboard/components/CMOS-چیست')}}">باتری ذخیره مادربورد (CMOS)</a></li>
                                     <li>21- <a href="{{url('/tutorial/motherboard/components/RAID-چیست')}}">RAID</a></li>
-                                    <li>22- <a href="">Front Panel connectors/system panel connectors</a></li>
+                                    <li>22- <a href="{{url('/tutorial/motherboard/components/کانکتور-پنل-جلو-کیس')}}">کانکتور‌های پنل جلوی کیس</a></li>
                                     <li>23- <a href="">FWH</a></li>
                                     <li>24- <a href="">کانکتور پورت سریال (Serial Port connector)</a></li>
                                     <li>25- <a href="">هدر USB</a></li>

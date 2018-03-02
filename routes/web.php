@@ -43,6 +43,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('SATA-چیست','pages.tutorial.motherboard.components.sata');
             Route::view('CMOS-چیست','pages.tutorial.motherboard.components.cmos');
             Route::view('RAID-چیست','pages.tutorial.motherboard.components.raid');
+            Route::view('کانکتور-پنل-جلو-کیس','pages.tutorial.motherboard.components.front_panel');
         });
     });
 
