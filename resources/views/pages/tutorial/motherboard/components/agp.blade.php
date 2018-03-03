@@ -95,7 +95,10 @@
                     
 
                  </div>
-                 
+                 {{--  related links  --}}
+                <div id="related-links">
+
+                </div>
                 
             </div>
         </div>

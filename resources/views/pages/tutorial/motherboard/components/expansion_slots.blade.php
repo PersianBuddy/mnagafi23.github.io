@@ -75,7 +75,10 @@
                      </p>
                      <a href="/images/xl/motherboard/اجزای-مادربورد.jpg"><img class="img-responsive" alt="اجزای مادربورد" src="/images/md/motherboard/اجزای-مادربورد.jpg"></a>
                  </div>
-                
+                {{--  related links  --}}
+                <div id="related-links">
+
+                </div>
             </div>
         </div>
     </div>

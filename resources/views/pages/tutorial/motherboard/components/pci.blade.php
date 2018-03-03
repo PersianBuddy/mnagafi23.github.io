@@ -79,7 +79,7 @@
                 {{--  related links  --}}
                 <div id="related-links">
 
-                </di>
+                </div>
                  
                 
             </div>
