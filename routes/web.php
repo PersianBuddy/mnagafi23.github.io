@@ -45,6 +45,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('RAID-چیست','pages.tutorial.motherboard.components.raid');
             Route::view('کانکتور-پنل-جلو-کیس','pages.tutorial.motherboard.components.front_panel');
             Route::view('هدرهای-مادربورد','pages.tutorial.motherboard.components.headers');
+            Route::view('جامپر','pages.tutorial.motherboard.components.jumper');
         });
     });
 

@@ -51,21 +51,19 @@
                                     <li>13- <a href="{{url('/tutorial/motherboard/components/super-io-چیست')}}">Super I/O</a></li>
                                     <li>16- <a href="{{url('/tutorial/motherboard/components/کانکتور-ide')}}">کانکتور IDE یا ATA</a></li>
                                     <li>17- <a href="{{url('/tutorial/motherboard/components/کانکتور-پاور-فرم-atx')}}">کانکتور ۲۴ پین پاور</a></li>
-                                    <li>18- <a href="{{url('/tutorial/motherboard/components/southbridge-چیست')}}">South Bridge</a></li>
-                                    <li>19- <a href="{{url('/tutorial/motherboard/components/SATA-چیست')}}">کانکتور SATA</a></li>
+                                    
                                 </div>
                                 <div class="col-md-6">
-                                    
+                                        <li>18- <a href="{{url('/tutorial/motherboard/components/southbridge-چیست')}}">South Bridge</a></li>
+                                        <li>19- <a href="{{url('/tutorial/motherboard/components/SATA-چیست')}}">کانکتور SATA</a></li>
+                                    <li>18- <a href="{{url('/tutorial/motherboard/components/southbridge-چیست')}}">South Bridge</a></li>
+                                    <li>19- <a href="{{url('/tutorial/motherboard/components/SATA-چیست')}}">کانکتور SATA</a></li>
                                     <li>20- <a href="{{url('/tutorial/motherboard/components/CMOS-چیست')}}">باتری ذخیره مادربورد (CMOS)</a></li>
                                     <li>21- <a href="{{url('/tutorial/motherboard/components/RAID-چیست')}}">RAID</a></li>
                                     <li>22- <a href="{{url('/tutorial/motherboard/components/کانکتور-پنل-جلو-کیس')}}">کانکتور‌های پنل جلوی کیس</a></li>
-                                    <li>24- <a href="">کانکتور پورت سریال (Serial Port connector)</a></li>
                                     <li>25- <a href="{{url('/tutorial/motherboard/components/هدرهای-مادربورد')}}">هدر USB</a></li>
-                                    <li>26- <a href="">جامپر (Jumpers)</a></li>
-                                    <li>27- <a href="">ای‌سی (Integrated circuit)</a></li>
-                                    <li>28- <a href="">هدر ۱۳۹۴</a></li>
-                                    <li>29- <a href="">SPDIF</a></li>
-                                    <li>30- <a href="">CD-IN</a></li>
+                                    <li>26- <a href="{{url('/tutorial/motherboard/components/جامپر')}}">جامپر (Jumper)</a></li>
+                                    <li>28- <a href="{{url('/tutorial/motherboard/components/هدرهای-مادربورد')}}">هدر ۱۳۹۴</a></li>
                                 </div>
                             </div>
                         </ul>
