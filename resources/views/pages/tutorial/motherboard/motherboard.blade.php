@@ -78,13 +78,26 @@
                     <p>
                         <span class="glyphicon glyphicon-hand-left"></span> توجه داشته باشید که کیس و پاور (power supply) نیز باید از فرم فاکتور مادربورد پشتیبانی کنند.
                     </p>
-                    <h4>انواع متداول فرم فاکتور برای مادربورد‌ها عبارت‌ اند از: </h4>
+                    <h4>انواع فرم فاکتور</h4>
+                    <p>
+                            بیشتر از ۲۲ نوع فرم‌فاکتور متفاوت برای مادربورد‌ها وجود دارد اما انواع متداول آن عبارت‌اند از : 
+                    </p>
                     <ul>
-                        <li><a href=""><span class="glyphicon glyphicon-link"></span> ATX<a><li>
-                        <li><a href=""><span class="glyphicon glyphicon-link"></span> Flex ATX<a><li>
-                        <li><a href=""><span class="glyphicon glyphicon-link"></span> Mini-ITX<a><li>
-                        <li><a href=""><span class="glyphicon glyphicon-link"></span> BTX<a><li>
-                        <li><a href=""><span class="glyphicon glyphicon-link"></span> micro ATX<a><li>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <li><a href="{{url('/tutorial/motherboard/form_factor/فرم-فاکتور-ATX')}}"><span class="glyphicon glyphicon-link"></span> ATX</a></li>
+                                <li><a href="{{url('/tutorial/motherboard/form_factor/فرم-فاکتور-ATX')}}"><span class="glyphicon glyphicon-link"></span> micro ATX</a></li>
+                                <li><a href="{{url('/tutorial/motherboard/form_factor/فرم-فاکتور-mini-ITX')}}"><span class="glyphicon glyphicon-link"></span> Mini-ITX</a></li>
+                                <li><a href="{{url('/tutorial/motherboard/form_factor/فرم-فاکتور-ATX')}}"><span class="glyphicon glyphicon-link"></span> Flex ATX</a></li>
+                            </div>
+                            <div class="col-sm-6">
+                                <li><a href="{{url('/tutorial/motherboard/form_factor/فرم-فاکتور-ATX')}}"><span class="glyphicon glyphicon-link"></span> E-ATX</a></li>
+                                <li><a href="{{url('/tutorial/motherboard/form_factor/فرم-فاکتور-BTX')}}"><span class="glyphicon glyphicon-link"></span> BTX</a></li>
+                                <li><a href="{{url('/tutorial/motherboard/form_factor/فرم-فاکتور-NLX')}}"><span class="glyphicon glyphicon-link"></span> NLX</a></li>
+                            </div>
+                        </div>
+                        
+
                     </ul>
                 </div>
                 

@@ -47,6 +47,13 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('هدرهای-مادربورد','pages.tutorial.motherboard.components.headers');
             Route::view('جامپر','pages.tutorial.motherboard.components.jumper');
         });
+        //motherboard Form Factors
+        Route::group(['prefix' => 'form_factor'],function(){
+            Route::view('فرم-فاکتور-ATX','pages.tutorial.motherboard.form_factor.atx');
+            Route::view('فرم-فاکتور-mini-ITX','pages.tutorial.motherboard.form_factor.mini_itx');
+            Route::view('فرم-فاکتور-BTX','pages.tutorial.motherboard.form_factor.btx');
+            Route::view('فرم-فاکتور-NLX','pages.tutorial.motherboard.form_factor.nlx');
+        });
     });
 
 });
