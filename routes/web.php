@@ -55,6 +55,19 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('فرم-فاکتور-NLX','pages.tutorial.motherboard.form_factor.nlx');
         });
     });
+    //case
+    Route::group(['prefix' => 'case'],function(){
+        Route::view('انواع-کیس','pages.tutorial.case.case_types');
+        Route::view('مدیریت-کابل-کیس','pages.tutorial.case.case_cable_management');
+        Route::view('فیلتر-گرد-خاک-کیس','pages.tutorial.case.case_dust_filter');
+        Route::view('کنترل-فن-کیس','pages.tutorial.case.case_fan_controller');
+        Route::view('کیس-شفاف','pages.tutorial.case.glass_case');
+        Route::view('کیس-ماژولار','pages.tutorial.case.madular_case');
+    });
+    //other
+    Route::group(['prefix' => 'other'],function(){
+        Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
+    });
 
 });
 Route::view('tutorial','pages.tutorial.tutorial');
