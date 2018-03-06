@@ -47,6 +47,8 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('هدرهای-مادربورد','pages.tutorial.motherboard.components.headers');
             Route::view('جامپر','pages.tutorial.motherboard.components.jumper');
             Route::view('اسلات-ISA','pages.tutorial.motherboard.components.isa_slot');
+            Route::view('اسلات-AMR','pages.tutorial.motherboard.components.amr_slot');
+            Route::view('اسلات-CNR','pages.tutorial.motherboard.components.cnr_slot');
         });
         //motherboard Form Factors
         Route::group(['prefix' => 'form_factor'],function(){

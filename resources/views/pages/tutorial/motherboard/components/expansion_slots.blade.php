@@ -57,16 +57,12 @@
                                 <td>کارت گرافیک - <a href="">مودم</a> - کارت صدا - کارت شبکه</td>
                             </tr>
                             <tr>
-                                <td><a href="">AMR</a></td>
+                                <td><a href="{{url('tutorial/motherboard/components/اسلات-AMR')}}">AMR</a></td>
                                 <td>مودم - کارت صدا</td>
                             </tr>
                             <tr>
-                                <td><a href="">CNR</a></td>
+                                <td><a href="{{url('tutorial/motherboard/components/اسلات-CNR')}}">CNR</a></td>
                                 <td>مودم - کارت شبکه - کارت صدا</td>
-                            </tr>
-                            <tr>
-                                <td><a href="">VESA</a></td>
-                                <td>کارت گرافیک</td>
                             </tr>
                         </tbody>
                      </table>
