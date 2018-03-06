@@ -64,6 +64,12 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('کیس-شفاف','pages.tutorial.case.glass_case');
         Route::view('کیس-ماژولار','pages.tutorial.case.madular_case');
     });
+    //Power Suply
+    Route::group(['prefix' => 'power_supply'],function(){
+        Route::view('پاور','pages.tutorial.power_supply.power_suply');
+        Route::view('کانکتور-MOLEX-پاور','pages.tutorial.power_supply.molex_connector');
+        Route::view('پاور-ماژولار','pages.tutorial.power_supply.modular_power_supply');
+    });
     //other
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
