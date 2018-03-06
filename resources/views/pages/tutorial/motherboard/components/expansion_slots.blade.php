@@ -19,7 +19,7 @@
                  <div id="expansion-slots-overview">
                     <h3>شیارها‌ی (اسلات) توسعه</h3>
                     <p>
-                            بروی مادربورد کانکتورهای باریکی وجود دارند که به کامپیوتر، این امکان را می‌دهند تا قطعات سخت‌افزاری به صورت کارت به سیستم اضافه شود؛ به کارت متصل شده expansion card  (کارت توسعه) و به این شیارها شیارهای توسعه (expansion slots) گفته می‌شود.
+                            بروی <a href="">مادربورد</a> کانکتورهای باریکی وجود دارند که به کامپیوتر، این امکان را می‌دهند تا قطعات سخت‌افزاری به شکل کارت را به سیستم اضافه شود؛ به کارت متصل شده expansion card  (کارت توسعه) و به این شیارها <b>شیارهای توسعه</b> (expansion slots) گفته می‌شود.
                      </p>
                     
 
@@ -27,10 +27,10 @@
                  <div id="expansion-slot-type">
                     <h4>انواع اسلات توسعه</h4>
                      <p>
-                        در زیر انواع گذرگاه هایی که قطعات از طریق اسلات های توسعه با آن‌ها ارتباط برقرار می‌کنند مورد بررسی قرار داده شده است.
-                        همچنین کارت‌های توسعه قابل نصب بروی آن ها نیز آورده شده برای مشاهده اطلاعات بیشتر در مورد هر یک بروی لینک کلیک مربوطه کلیک کنید.
+                        در زیر انواع <b>گذرگاه هایی</b> که قطعات از طریق اسلات های توسعه با آن‌ها ارتباط برقرار می‌کنند مورد بررسی قرار داده شده است.
+                        همچنین کارت‌های توسعه قابل نصب بروی آن ها نیز معرفی شده برای مشاهده اطلاعات بیشتر در مورد هر یک بروی لینک مربوطه کلیک کنید.
                      </p>
-                     <table class="table table-striped table-hover">
+                     <table class="table table-striped table-hover table-bordered">
                         <thead>
                             <tr>
                                 <th>نوع اسلات</th>
@@ -40,20 +40,20 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><a href="">ISA</a></td>
+                                <td><a href="{{url('tutorial/motherboard/components/اسلات-ISA')}}">ISA</a></td>
                                 <td><a href="">کارت شبکه</a> - <a href="">کارت صدا</a> - <a href="">کارت گرافیک</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">PCI</a></td>
+                                <td><a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a></td>
                                 <td><a href="">SCSI</a> - کارت شبکه - کارت صدا - کارت گرافیک</td>
                             </tr>
                             
                             <tr>
-                                <td><a href="">AGP</a></td>
+                                <td><a href="{{url('tutorial/motherboard/components/اسلات-agp')}}">AGP</a></td>
                                 <td>کارت گرافیک</td>
                             </tr>
                             <tr>
-                                <td><a href="">PCI-Express</a></td>
+                                <td><a href="{{url('tutorial/motherboard/components/اسلات-pci-express')}}">PCI-Express</a></td>
                                 <td>کارت گرافیک - <a href="">مودم</a> - کارت صدا - کارت شبکه</td>
                             </tr>
                             <tr>

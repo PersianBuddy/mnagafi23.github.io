@@ -46,6 +46,7 @@ Route::group(['prefix' => 'tutorial'],function(){
             Route::view('کانکتور-پنل-جلو-کیس','pages.tutorial.motherboard.components.front_panel');
             Route::view('هدرهای-مادربورد','pages.tutorial.motherboard.components.headers');
             Route::view('جامپر','pages.tutorial.motherboard.components.jumper');
+            Route::view('اسلات-ISA','pages.tutorial.motherboard.components.isa_slot');
         });
         //motherboard Form Factors
         Route::group(['prefix' => 'form_factor'],function(){
