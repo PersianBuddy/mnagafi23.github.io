@@ -82,6 +82,8 @@ Route::group(['prefix' => 'tutorial'],function(){
     Route::group(['prefix' => 'ports'],function(){
         Route::view('پورت-MIDI','pages.tutorial.ports.midi_port');
         Route::view('پورت-Firewire','pages.tutorial.ports.firewire');
+        Route::view('پورت-RJ-45','pages.tutorial.ports.rj45');
+        Route::view('پورت-RJ-11','pages.tutorial.ports.rj11');
     });
     //internet
     Route::group(['prefix' => 'internet'],function(){
