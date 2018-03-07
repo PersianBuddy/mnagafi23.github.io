@@ -76,7 +76,12 @@ Route::group(['prefix' => 'tutorial'],function(){
     //Sound
     Route::group(['prefix' => 'sound'],function(){
         Route::view('کارت-صدا','pages.tutorial.sound.sound_card');
-        Route::view('خروجی-صدای-چند-کاناله','pages.tutorial.sound.multi_chanel_sound');
+        Route::view('خروجی-صدای-چند-کاناله','pages.tutorial.sound.multi_channel_sound');
+    });
+    //ports
+    Route::group(['prefix' => 'ports'],function(){
+        Route::view('پورت-MIDI','pages.tutorial.ports.midi_port');
+        Route::view('پورت-Firewire','pages.tutorial.ports.firewire');
     });
     //other
     Route::group(['prefix' => 'other'],function(){
