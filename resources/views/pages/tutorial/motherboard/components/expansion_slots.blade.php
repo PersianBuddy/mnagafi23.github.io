@@ -41,7 +41,7 @@
                         <tbody>
                             <tr>
                                 <td><a href="{{url('tutorial/motherboard/components/اسلات-ISA')}}">ISA</a></td>
-                                <td><a href="">کارت شبکه</a> - <a href="{{url('tutorial/sound/کارت-صدا')}}">کارت صدا</a> - <a href="">کارت گرافیک</a></td>
+                                <td><a href="{{url('tutorial/internet/کارت-شبکه')}}">کارت شبکه</a> - <a href="{{url('tutorial/sound/کارت-صدا')}}">کارت صدا</a> - <a href="">کارت گرافیک</a></td>
                             </tr>
                             <tr>
                                 <td><a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a></td>
@@ -54,7 +54,7 @@
                             </tr>
                             <tr>
                                 <td><a href="{{url('tutorial/motherboard/components/اسلات-pci-express')}}">PCI-Express</a></td>
-                                <td>کارت گرافیک - <a href="">مودم</a> - کارت صدا - کارت شبکه</td>
+                                <td>کارت گرافیک - <a href="{{url('tutorial/internet/کارت-مودم')}}">کارت مودم</a> - کارت صدا - کارت شبکه</td>
                             </tr>
                             <tr>
                                 <td><a href="{{url('tutorial/motherboard/components/اسلات-AMR')}}">AMR</a></td>

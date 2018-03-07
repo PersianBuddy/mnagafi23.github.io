@@ -83,6 +83,11 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('پورت-MIDI','pages.tutorial.ports.midi_port');
         Route::view('پورت-Firewire','pages.tutorial.ports.firewire');
     });
+    //internet
+    Route::group(['prefix' => 'internet'],function(){
+        Route::view('کارت-مودم','pages.tutorial.internet.modem_card');
+        Route::view('کارت-شبکه','pages.tutorial.internet.network_card');
+    });
     //other
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
