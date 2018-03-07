@@ -73,9 +73,15 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('کانکتور-MOLEX-پاور','pages.tutorial.power_supply.molex_connector');
         Route::view('پاور-ماژولار','pages.tutorial.power_supply.modular_power_supply');
     });
+    //Sound
+    Route::group(['prefix' => 'sound'],function(){
+        Route::view('کارت-صدا','pages.tutorial.sound.sound_card');
+        Route::view('خروجی-صدای-چند-کاناله','pages.tutorial.sound.multi_chanel_sound');
+    });
     //other
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
+        Route::view('کارت-صدا','pages.tutorial.other.sound_card');
     });
 
 });
