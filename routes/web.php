@@ -93,7 +93,7 @@ Route::group(['prefix' => 'tutorial'],function(){
     //other
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
-        Route::view('کارت-صدا','pages.tutorial.other.sound_card');
+        Route::view('اینترفیس-SCSI','pages.tutorial.other.scsi');
     });
 
 });

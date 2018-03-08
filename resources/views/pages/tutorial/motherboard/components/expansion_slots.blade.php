@@ -45,7 +45,7 @@
                             </tr>
                             <tr>
                                 <td><a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a></td>
-                                <td><a href="">SCSI</a> - کارت شبکه - کارت صدا - کارت گرافیک</td>
+                                <td><a href="{{url('tutorial/other/اینترفیس-SCSI')}}">SCSI</a> - کارت شبکه - کارت صدا - کارت گرافیک</td>
                             </tr>
                             
                             <tr>
