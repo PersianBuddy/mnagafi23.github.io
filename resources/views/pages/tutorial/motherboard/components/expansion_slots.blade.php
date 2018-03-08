@@ -41,7 +41,7 @@
                         <tbody>
                             <tr>
                                 <td><a href="{{url('tutorial/motherboard/components/اسلات-ISA')}}">ISA</a></td>
-                                <td><a href="{{url('tutorial/internet/کارت-شبکه')}}">کارت شبکه</a> - <a href="{{url('tutorial/sound/کارت-صدا')}}">کارت صدا</a> - <a href="">کارت گرافیک</a></td>
+                                <td><a href="{{url('tutorial/internet/کارت-شبکه')}}">کارت شبکه</a> - <a href="{{url('tutorial/sound/کارت-صدا')}}">کارت صدا</a> - <a href="{{url('tutorial/graphic/کارت-گرافیک')}}">کارت گرافیک</a></td>
                             </tr>
                             <tr>
                                 <td><a href="{{url('tutorial/motherboard/components/اسلات-pci')}}">PCI</a></td>

@@ -90,6 +90,12 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('کارت-مودم','pages.tutorial.internet.modem_card');
         Route::view('کارت-شبکه','pages.tutorial.internet.network_card');
     });
+    //Graphic Card
+    Route::group(['prefix' => 'graphic'],function(){
+        Route::view('کارت-گرافیک','pages.tutorial.graphic.graphic_card');
+        Route::view('فناوری-SLI','pages.tutorial.graphic.sli');
+        Route::view('فناوری-CrossFire','pages.tutorial.graphic.crossfire');
+    });
     //other
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
