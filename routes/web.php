@@ -96,6 +96,15 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('فناوری-SLI','pages.tutorial.graphic.sli');
         Route::view('فناوری-CrossFire','pages.tutorial.graphic.crossfire');
     });
+    //CPU
+    Route::group(['prefix' => 'cpu'],function(){
+        Route::view('پردازنده-چیست','pages.tutorial.cpu.cpu');
+        Route::view('پردازنده-۳۲بیت-۶۴بیت','pages.tutorial.cpu.32vs64_bit_cpu');
+        Route::view('حافظه-Cache-پردازنده','pages.tutorial.cpu.cpu_cache');
+        Route::view('پردازنده-چند-رشته','pages.tutorial.cpu.hyper_threading');
+        Route::view('پردازنده-چند-هسته‌ای','pages.tutorial.cpu.cpu_cores');
+        Route::view('فرکانس-پردازنده','pages.tutorial.cpu.cpu_clock_speed');
+    });
     //other
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
