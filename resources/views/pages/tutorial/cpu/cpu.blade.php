@@ -53,6 +53,8 @@
                     <a href="{{url('tutorial/cpu/پردازنده-چند-رشته')}}">پردازنده چند رشته‌ای</a>
                     <a href="{{url('tutorial/cpu/پردازنده-چند-هسته‌ای')}}">هسته (Core) در پردازنده‌‌ها به چه معناست؟</a>
                     <a href="{{url('tutorial/cpu/فرکانس-پردازنده')}}">فرکانس (Clock Speed) پردازنده</a>
+                    <a href="{{url('tutorial/cpu/فرکانس-boost-پردازنده')}}">Trubo Boost پردازنده‌های اینتل</a>
+                    <a href="{{url('tutorial/cpu/مقایسه-پردازنده-های-core-i-اینتل')}}">مقایسه پردازنده‌های Core i شرکت اینتل</a>
                 </div>
                  
                 

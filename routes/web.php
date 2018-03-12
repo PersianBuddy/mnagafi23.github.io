@@ -104,6 +104,8 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('پردازنده-چند-رشته','pages.tutorial.cpu.hyper_threading');
         Route::view('پردازنده-چند-هسته‌ای','pages.tutorial.cpu.cpu_cores');
         Route::view('فرکانس-پردازنده','pages.tutorial.cpu.cpu_clock_speed');
+        Route::view('فرکانس-boost-پردازنده','pages.tutorial.cpu.turbo_boost');
+        Route::view('مقایسه-پردازنده-های-core-i-اینتل','pages.tutorial.cpu.cpu_corei');
     });
     //other
     Route::group(['prefix' => 'other'],function(){
