@@ -33,17 +33,17 @@
                 <ul class="list-number">
                     <div class="row">
                         <div class="col-md-6">
-                            <li><a href=""> پورت PS/2</a></li>
+                            <li><a href="{{url('tutorial/ports/پورت-PS-2')}}"> پورت PS/2</a></li>
                             <li><a href=""> پورت D-SUB</a></li>
                             <li><a href=""> Optical Digital Audio Output</a></li>
-                            <li><a href=""> USB 2.0</a></li>
-                            <li><a href=""> USB 3.0</a></li>
+                            <li><a href="{{url('tutorial/ports/مقایسه-پورت-های-USB')}}"> USB 2.0</a></li>
+                            <li><a href="{{url('tutorial/ports/مقایسه-پورت-های-USB')}}"> USB 3.0</a></li>
                             <li><a href=""> پورت شبکه</a></li>
                         </div>
                         <div class="col-md-6">
                             <li><a href=""> پنل ورودی و خروجی صدا</a></li>
                             <li><a href=""> کانکتور eSATA</a></li>
-                            <li><a href=""> پورت HDMI</a></li>
+                            <li><a href="{{url('tutorial/ports/پورت-HDMI')}}"> پورت HDMI</a></li>
                             <li><a href=""> پورت DisplayPort</a></li>
                             <li><a href="">DVI</a></li>
                         </div>

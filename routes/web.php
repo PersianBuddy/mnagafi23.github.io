@@ -84,6 +84,13 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('پورت-Firewire','pages.tutorial.ports.firewire');
         Route::view('پورت-RJ-45','pages.tutorial.ports.rj45');
         Route::view('پورت-RJ-11','pages.tutorial.ports.rj11');
+        Route::view('مقایسه-پورت-های-USB','pages.tutorial.ports.usb');
+        Route::view('استاندارد-USB-Type-C','pages.tutorial.ports.usb_typec');
+        Route::view('پورت-PS-2','pages.tutorial.ports.ps2');
+        Route::view('مقایسه-پورت-PS/2-و-USB','pages.tutorial.ports.ps2_vs_usb');
+        Route::view('پورت-HDMI','pages.tutorial.ports.hdmi');
+        Route::view('پورت-RCA','pages.tutorial.ports.rca');
+        Route::view('پورت-RCA-mini-jack','pages.tutorial.ports.mini_rca');
     });
     //internet
     Route::group(['prefix' => 'internet'],function(){
@@ -111,6 +118,7 @@ Route::group(['prefix' => 'tutorial'],function(){
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
         Route::view('اینترفیس-SCSI','pages.tutorial.other.scsi');
+        Route::view('bus-چیست','pages.tutorial.other.bus');
     });
 
 });

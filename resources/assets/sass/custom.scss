@@ -36,6 +36,12 @@ ul.list-number {
 ul.custom-list {
     list-style: disc !important;
     padding-right: 2em !important;
+    li {
+        .sublist-title {
+            color: red;
+            font-weight: bold;
+        }
+    }
 }
 
 .list-group {
