@@ -91,6 +91,9 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('پورت-HDMI','pages.tutorial.ports.hdmi');
         Route::view('پورت-RCA','pages.tutorial.ports.rca');
         Route::view('پورت-RCA-mini-jack','pages.tutorial.ports.mini_rca');
+        Route::view('پورت-DVI','pages.tutorial.ports.dvi');
+        Route::view('پورت-VGA','pages.tutorial.ports.vga');
+        Route::view('پورت-DisplayPort','pages.tutorial.ports.displayport');
     });
     //internet
     Route::group(['prefix' => 'internet'],function(){
@@ -113,6 +116,12 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('فرکانس-پردازنده','pages.tutorial.cpu.cpu_clock_speed');
         Route::view('فرکانس-boost-پردازنده','pages.tutorial.cpu.turbo_boost');
         Route::view('مقایسه-پردازنده-های-core-i-اینتل','pages.tutorial.cpu.cpu_corei');
+    });
+    //Monitor
+    Route::group(['prefix' => 'monitor'],function(){
+        Route::view('نرخ-بروزرسانی-تصاویر','pages.tutorial.monitor.refresh_rate');
+        Route::view('نسبت-تصاویر-مانیتور','pages.tutorial.monitor.aspect_ratio');
+        Route::view('رزولوشن-مانیتور-ها','pages.tutorial.monitor.resolution');
     });
     //other
     Route::group(['prefix' => 'other'],function(){
