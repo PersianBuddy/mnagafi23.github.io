@@ -94,6 +94,8 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('پورت-DVI','pages.tutorial.ports.dvi');
         Route::view('پورت-VGA','pages.tutorial.ports.vga');
         Route::view('پورت-DisplayPort','pages.tutorial.ports.displayport');
+        Route::view('پورت-TOSLINK','pages.tutorial.ports.toslink');
+        Route::view('پورت-COAX','pages.tutorial.ports.coax');
     });
     //internet
     Route::group(['prefix' => 'internet'],function(){
