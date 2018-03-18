@@ -125,6 +125,12 @@ Route::group(['prefix' => 'tutorial'],function(){
         Route::view('نسبت-تصاویر-مانیتور','pages.tutorial.monitor.aspect_ratio');
         Route::view('رزولوشن-مانیتور-ها','pages.tutorial.monitor.resolution');
     });
+    //RAM
+    Route::group(['prefix' => 'RAM'],function(){
+        Route::view('رم-کامپیوتر','pages.tutorial.ram.ram');
+        Route::view('مقایسه-RAM-و-ROM','pages.tutorial.ram.ram_vs_rom');
+        Route::view('فناوری-چند-کاناله-رم','pages.tutorial.ram.multi_chanell_ram');
+    });
     //other
     Route::group(['prefix' => 'other'],function(){
         Route::view('خنک-کننده-آبی','pages.tutorial.other.water_cooling');
